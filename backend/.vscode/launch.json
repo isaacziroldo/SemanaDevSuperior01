@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SdsApplication<sds>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.sds.sds.SdsApplication",
+            "projectName": "sds",
+            "args": ""
+        }
+    ]
+}
