@@ -1,5 +1,5 @@
 .home-container {
-  margin-top: 7px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
 }
@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 1250px) {
+  home-container {
+    margin-top: 100px;
+  }
   .home-image {
     max-width: 400px;
     height: auto;
