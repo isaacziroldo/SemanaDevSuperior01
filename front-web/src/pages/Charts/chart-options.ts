@@ -23,7 +23,7 @@ export const pieOptions = {
     },
     plotOptions: {
       pie: {
-        customScale: 0.7,
+        customScale: 1,
         expandOnClick: false,
         dataLabels: {
           offset: 60,
@@ -47,7 +47,7 @@ export const pieOptions = {
         horizontal: true,
         endingShape: "rounded",
         startingShape: "rounded",
-        barHeight: "60px",
+        barHeight: "45px",
       },
     },
     dataLabels: {
@@ -70,7 +70,7 @@ export const pieOptions = {
     yaxis: [
       {
         labels: {
-          maxWidth: 360,
+          maxWidth: 500,
           style: {
             colors: "#00D4FF",
             fontSize: "18px",
